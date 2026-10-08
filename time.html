@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Inside Out</title>
+    <link rel="stylesheet" href="time.css">
+    <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <section class="navigation">
+        <nav>
+            <img src = "logophoto.png" alt = "">
+            <img src="logotext.png" alt="">
+            <a href="index.html">Главная</a>
+            <a class = "active" href="time.html">Тайм-менеджмент</a>
+            <a href="tips.html">Советы</a>
+            <a href="practice.html">Практики</a>
+            <img class = "a123" src = "Group 1@2x.png" alt = "">
+        </nav>
+    </section>
+</header>
+<main>
+    <section id="time" data-t="Тайм-менеджмент">
+        <div class="hero">
+            <div class="wrapper">
+                <h1>Тайм-менеджмент</h1>
+                <p class="lead">Инструменты, которые помогают разложить подготовку к экзаменам по полочкам.</p>
+            </div>
+        </div>
+
+        <div class="wrapper section">
+            <div class="grid">
+    
+                <div class="card small-green">
+                    <h2>Фокус-таймер</h2>
+                    <p>30 минут работы, затем 5 минут отдыха.</p>
+                    <div class="timer" id="tt" role="timer">30:00</div>                                                                                                                                                                         
+    
+                    <div class="buttons">
+                        <button class="btn" id="tg">Старт</button>
+                        <button class="btn outline" id="tr">Сбросить</button>
+                    </div>
+                </div>
+
+                <div class="card gray">
+                    <h2>План на день</h2>
+                    <input type="date" id="pd" class="date-input">
+                    <form id="pf" class="task-form">
+                        <input type="text" id="pi" placeholder="Например, повторить билеты" maxlength="80" autocomplete="off">
+                        <button class="btn" type="submit">Добавить</button>
+                    </form>
+    
+                </div>
+    
+            </div>
+        </div>
+<div class = "pr_card">
+    <h2>Прогресс за неделю</h2>
+    <p>Столбики показывают, сколько задач выполнено за каждый день.</p>
+
+    <div class="week-progress">
+        <div class="day">
+            <div class="fill" style="height: 80%;"></div>
+            <span class="label">Пн</span>
+            <span class="percent">80%</span>
+        </div>
+
+        <div class="day">
+            <div class="fill" style="height: 40%;"></div>
+            <span class="label">Вт</span>
+            <span class="percent">40%</span>
+        </div>
+        <div class="day">
+            <div class="fill" style="height: 100%;"></div>
+            <span class="label">Ср</span>
+            <span class="percent">100%</span>
+        </div>
+        <div class="day">
+            <div class="fill" style="height: 0%;"></div>
+            <span class="label">Чт</span>
+            <span class="percent">0%</span>
+        </div>
+        <div class="day">
+            <div class="fill" style="height: 60%;"></div>
+            <span class="label">Пт</span>
+            <span class="percent">60%</span>
+        </div>
+        <div class="day">
+            <div class="fill" style="height: 20%;"></div>
+            <span class="label">Сб</span>
+            <span class="percent">20%</span>
+        </div>
+        <div class="day">
+            <div class="fill" style="height: 0%;"></div>
+            <span class="label">Вс</span>
+            <span class="percent">0%</span>
+        </div>
+    </div>
+</div>
+    </section>
+</main>
+<footer>
+
+</footer>
+</body>

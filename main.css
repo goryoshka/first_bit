@@ -1,0 +1,222 @@
+:root {
+    --color-neutral-light: #F7F5EE;
+    --color-neutral-medium: #D0D0CE;
+    --color-neutral-dark: #D9D9D9;
+    --color-accent-green: #5F916C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333;
+    background-color: (var(--color-neutral-light));
+}
+
+header {
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+nav img {
+    max-height: 50px;
+}
+
+.a123{
+    position: absolute;
+    right: 50px;
+}
+.active {
+    background-color: #D9D9D9;
+    padding: 8px 16px;
+    border-radius: 24px;
+}
+
+nav a {
+    color: #333;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--color-accent-green);
+}
+.logo {
+    width: 500px;
+}
+
+.start {
+    padding: 60px 20px;
+    text-align: center;
+}
+.green {
+    background-color: #5F916C;
+    color: white;
+}
+.grey {
+    background-color: #D9D9D9;
+    color: #333;
+}
+
+.start1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textstart h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.textstart p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttonstart {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttonstart a {
+    padding: 12px 25px;
+    border-radius: 24px;
+    cursor: pointer;
+    text-decoration: none ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.green:hover {
+    background-color: #53805f;
+}
+.grey:hover {
+    background-color: #c3c3c3;
+}
+
+.achieve {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: flex-start;
+}
+.achieve_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.block {
+    flex: 1 1 250px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.achieve h3 {
+    margin-bottom: 10px;
+    color: #5F916C;
+}
+
+.insaid {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.what_insaid {
+    display: flex;
+    text-align: start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto 0px;
+}
+
+.insaid__div {
+    width: 367px;
+    height: 398px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.insaid h2 {
+    font-size: 30px
+}
+.insaid p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.insaid h3 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.insaid a {
+    display: inline-block;
+    background-color: #5F916C;
+    width: 318px;
+    text-align: center;
+    color: white;
+    padding: 16px 56px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.insaid a:hover {
+    background-color: #53805f;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .start1 {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .textstart h1 {
+        font-size: 32px;
+    }
+} 
+
