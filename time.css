@@ -211,12 +211,6 @@ input[type="date"] {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 
 .week-progress {
     display: grid;
