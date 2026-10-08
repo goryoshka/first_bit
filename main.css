@@ -210,8 +210,9 @@ footer {
         display: flex;
         flex-diretcion: column;
 }
-    .insaid_div:
+    .insaid_div {
     wigth: 100%;
+    }
 }
 }
 
