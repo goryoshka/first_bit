@@ -204,12 +204,12 @@ input[type="date"] {
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
