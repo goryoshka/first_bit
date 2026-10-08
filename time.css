@@ -207,15 +207,6 @@ input[type="date"] {
     gap: 30px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    bottom: 0px;
-}
-
 @media (min-width: 768px) {
     .grid {
         grid-template-columns: 1fr 1fr;
