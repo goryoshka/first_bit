@@ -205,15 +205,4 @@ footer {
     margin-top: 40px;
 }
 
-@media (max-width: 768px) {
-    .insaid {
-        display: flex;
-        flex-diretcion: column;
-}
-    .insaid_div {
-    wigth: 100%;
-    }
-}
-}
-
 
