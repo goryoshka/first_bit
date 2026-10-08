@@ -206,17 +206,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .start1 {
-        flex-direction: column;
-    }
+    .insaid {
+        display: flex;
+        flex-diretcion: column;
+}
 
-    nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .textstart h1 {
-        font-size: 32px;
-    }
-} 
 
