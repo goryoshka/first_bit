@@ -208,7 +208,7 @@ input[type="date"] {
     .grid {
         grid-template-columns: 1fr 1fr;
         margin: auto;
-        margin-right: -20px;
+        margin-left: -20px;
     }
 }
 
